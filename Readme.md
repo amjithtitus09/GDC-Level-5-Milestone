@@ -16,6 +16,9 @@ For the other functionality, the URL routes should be exactly the same as the on
 For bounty points, implement another route `GET /all_tasks` that renders pending and completed tasks on a single page.
 
 This milestone should be implemented with the Django ORM. the model is already present in the boilerplate code, no changes should be made to the model.
+
+> Note: Please make sure your URL patterns have a trailing slash to pass the tests.
+
 ## Boilerplate code
 
 Use the following repository as a starting point for this project: https://github.com/vigneshhari/GDC-Level-5-Milestone
