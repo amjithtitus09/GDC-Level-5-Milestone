@@ -37,6 +37,10 @@ Run the following command to test your application.
 python manage.py test
 ```
 
+Also, migrate the database changes so you can use the model:
+```bash
+python manage.py migrate
+```
 ## Submission
 
 Once all the tests are passing, push the code to a GitHub repository and submit the link to the repo.
